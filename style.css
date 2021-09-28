@@ -16,7 +16,6 @@ a:active {
   color: #A0522D;
 }
 
-
 .start {
   background-color: white;
   margin-top: 20px;
@@ -27,46 +26,39 @@ a:active {
   text-align: center;
   font-size: 22px;;
   line-height: 0;
-  background: ##A0522D;
+  background: #00cfcf;
   color: #A0522D;
   margin-top: 5px;
 }
 
-  .s1 {
-    order: 1;
-    flex: 1;
-  }
+.one {
+  text-align: center;
+  margin-left: -1cm;
+}
 
-  .s2 {
-    order: 2;
-    flex: 1;
-  }
+.one a {
+  padding: 1.5em;
+  background: #A0522D;
+  border-center: 12px solid #A0522D;
+  color: #CD853F;
+border-radius: 90px;
+  
+}
 
-  .s3 {
-    order: 1;
-    flex: 1;
-  }
+.one a:hover {
+  background: #8B4513;
+}
 
-  .s4 {
-    order: 2;
-    flex: 1;
-  }
-
-
-  .item a {
-    display: block;
-    padding: 1.2rem 0.75rem;
-    color:#CD853F;
-  }
-
-  .item a:hover {
-    background: #8B4513;
-  }
+.one li {
+  display: inline;
+}
 
 .struct {
-  max-width: 96%;
+  max-width:960px;
   margin: 0 auto;
+  padding:10px;
 }
+
 #shapka {
   background-color: #FFA07A;
   height: 180px;
@@ -76,9 +68,9 @@ a:active {
 
 #logo {
   position: absolute;
-  width: 250px;
+  width: 300px;
   height: 150px;
-  margin-left: -20px;
+  margin-left: -30px;
 }
 
 
@@ -87,16 +79,16 @@ a:active {
   position:absolute;
   margin-left: 300px;
   margin-top: 25px;
-  font-size: 40px;
+  font-size: 100px;
 }
 
 
 
 table {
-     border: 1px solid grey;
+    border: 1px solid black;
     text-align: center;
-    width: 100%;
     padding: 5px;
+    width: 400px;
   }
 
   th {
@@ -133,39 +125,7 @@ input {
 }
 
 #forum {
-   width: 100%;
-  text-align: center;
+    text-align: center;
+    padding: 60px;
+    width: 400px;
 }
-
-
-
-
-
-
-@media (min-width: 480px) {
-
-  .struct {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-
-  #igh {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-
-  .menu {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 920px;
-    margin-top: 20px;
-    margin: 0 auto;
-  }
-}
-
-
-
-
-
-
-
