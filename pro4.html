@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style4.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+      <title>Задание 4</title>
+	  
+	  </head>
+<body>
+  <header class="p-2">
+    <div class="container-lg">
+        <img class= src="https://e7.pngegg.com/pngimages/322/296/png-clipart-airplane-aircraft-flight-airplane-fighter-aircraft-flight.png"  alt=""Logo" style="width: 250px; height: 150px" />
+      <h1 class="header"> Aviation Links </h1>">
+      				
+      		   </div>
+  </header>
+  <nav class="container-lg mx-auto">
+    <ul class="row">
+      <li class="col-12 col-lg m-2" ><a href="#links">Список</a></li>
+      <li class="col-12 col-lg  m-2" ><a href="#table">Таблица</a></li>
+      <li class="col-12 col-lg  m-2" ><a href="#form">Форма</a></li>
+      <li class="col-12 col-lg m-2" ><a href="#head4">Контакты</a></li>
+    </ul>
+  </nav>
+  <div class="container-lg m-auto">
+    <div class="row row-cols-1">
+      <section id="links" class="col py-3 px-2 px-lg-4 my-2">
+        <h3>Страница с маркированным списком гиперссылок</h3 >
+        <ol>
+
+                  <li><a href="http://www.aeroflot.ru/">Абсолютная гиперссылка на главную страницу сайта</a></li>
+                  <li><a href="https://www.aeroflot.ru/">Абсолютная гиперссылка на главную страницу сайта в протоколе https</a></li>
+                  <li><a href="ftp://user:123@aeroflot.ru/files/file.html">Ссылка на файл на сервере FTP с авторизацией</a></li>
+                  <li><a href="http://www.aeroflot.ru/ru-ru/online_services#anchor">Ссылка на фрагмент страницы некоторого сайта</a></li>
+                  <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
+                  <li><a href="http://www.aeroflot.ru/ru-ru/afl_bonus/bonus_news?parameter1=p1&parameter2=p2">Ссылка с двумя параметрами в URL</a></li>
+                <li>
+                    Список ссылок основной навигации сайта с подписями title
+                    <ul>
+                          <li><a href="#head1" title="Маркированный список гиперссылок">Маркированный список гиперссылок</a></li>
+                          <li><a href="#head2" title="Форма">Форма</a></li>
+                    </ul>
+                </li>
+                  <li><a>Ссылка без href</a></li>
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a href="http://aeroflot.ru" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+                <li><a href="http://aeroflot.ru" rel="nofollow"><!--noindex-->Ссылка, запрещенная для индексации поисковиками<!--/noindex--></a></li>
+                <li><p>Контекстная <a href="http://aeroflot.ru">ссылка</a> в тексте абзаца</p></li>
+                <li>
+                    Ссылка-изображение<br/>
+                    <a href="http://aeroflot.ru"><img src="https://on-desktop.com/wps/2017Aviation_DELTA_Airlines_plane_at_the_international_airport_SeaTac_111783_.jpg" width="310" height="190" alt="Описание картинки"></a>
+                </li>
+                <li>
+                    Ссылки из прямоугольных и круглых областей картинки<br/>
+                    <img src="https://ic.pics.livejournal.com/fotografersha/13042289/9993090/9993090_original.jpg" width="320" height="256" alt="Описание картинки" usemap="#myairline">
+                    <map name="myairline">
+                       <area shape="rect" coords="40,25,90,150" href="https://jetmagazine.ru/" alt="Прямоугольная область">
+                       <area shape="circle" coords="100,210,25" href="https://topwar.ru/armament/aviation/" alt="Круглая область">
+                    </map>
+                </li>
+               <li><a href="page">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="./about/page">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="../page">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                <li><a href="../../page">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+                <li><a href="/">Сокращенная ссылка на главную</a></li>
+                <li><a href="/pages/page">Сокращенная ссылка на внутреннюю</a></li>
+            <a id="top"></a>
+			 </ul>
+			
+			  </section>
+      <section id="table" class="col py-3 px-2 px-lg-4 my-2 mx-auto order-1 order-lg-0">
+        <h3>Таблица</h3>
+        <table class="mx-auto">
+          <tr>
+		  
+            <th class="p-1 p-sm-2">Колонка 1</th>
+            <th class="p-1 p-sm-2">Колонка 2</th>
+            <th class="p-1 p-sm-2">Колонка 3</th>
+            <th class="p-1 p-sm-2">Колонка 4</th>
+          </tr>
+          <tr>
+            <td class="p-1 p-sm-2">Ячейка 1</td>
+            <td class="p-1 p-sm-2">Ячейка 2</td>
+            <td class="p-1 p-sm-2">Ячейка 3</td>
+            <td class="p-1 p-sm-2" rowspan="2">Ячейка<br />7</td>
+          </tr>
+          <tr>
+            <td class="p-1 p-sm-2">Ячейка 4</td>
+            <td class="p-1 p-sm-2">Ячейка 5</td>
+            <td class="p-1 p-sm-2">Ячейка 6</td>
+          </tr>
+					<tr>
+						<td class="p-1 p-sm-2">Ячейка 8</td>
+						<td class="p-1 p-sm-2">Ячейка 9</td>
+						<td class="p-1 p-sm-2">Ячейка 10</td>
+						<td class="p-1 p-sm-2">Ячейка 11</td>
+					</tr>
+
+        </table>
+      </section>
+    <section id="form" class="col py-3 px-2 px-lg-4 my-2">
+        <h3>Форма</h3>
+        <form action="URL_отправки_данных"
+          method="POST">
+          <label>
+                    Имя:<br/>
+                    <input name="yourname">
+                </label><br/>
+				<label>
+                    Фамилия:<br/>
+                    <input family name="surname">
+                </label><br/>
+                <label>
+                    e-mail:<br/>
+                    <input name="e-mail"
+                    type="email"/>
+                </label><br/>
+                <label>
+                    Дата рождения:<br/>
+                    <input name="dateofbirth"
+                    type="date"/>
+                </label><br/>
+         
+                <label>
+                    Личные качества:<br/>
+                    <select name="p" multiple="multiple">
+                    <option value="immortality" selected="selected">ответсвенность</option>
+                    <option value="passingthroughwalls">пунктуальность</option>
+                    <option value="levitation">вежливость</option>
+					 <option value="levitation">стрессоустойчивость</option>
+                    </select>
+                </label><br/>
+				 Уровень знания английского:<br/>
+                <label>
+                    <input type="radio" name="radio-group-1" value="Beginner (A1)"/>
+                    Beginner (A1)
+                </label>
+                <label><br/>
+                    <input type="radio" name="radio-group-1" value="Elementary (A2)"/>
+                    Elementary (A2)
+                </label>
+                <label><br/>
+                    <input type="radio" name="radio-group-1" value="Уровень Intermediate (B1)"/>
+                    Intermediate (B1)
+                </label>
+                <label><br/>
+                    <input type="radio" checked="checked" name="radio-group-1" value="Upper Intermediate (B2)"/>
+                    Upper Intermediate (B2)
+                </label>
+                <label><br/>
+                    <input type="radio" name="radio-group-1" value="Advanced (C1)"/>
+                    Advanced (C1)
+					<label><br/>
+                    <input type="radio" name="radio-group-1" value="Proficiency (C2)"/>
+                    Proficiency (C2)
+                </label><br/>
+                  </select>
+          </label><br />
+
+          <label>
+            Биография:<br />
+            <textarea name="biography">О себе ты можешь рассказать тут...</textarea>
+          </label><br />
+
+          <br />
+          <label><input type="checkbox"
+            name="contract" />
+            С контрактом ознакомлен
+          </label><br />
+
+                <input type="submit" value="Отправить"/>
+            </form>
+			  </div>
+
+       <a id="site"></a>
+
+         </div>
+ <footer class="px-5 py-2">
+    (c) Alyona Bogdanova 2021
+  </footer>
+    </body>
+</html>
