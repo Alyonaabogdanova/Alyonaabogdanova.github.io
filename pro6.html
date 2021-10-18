@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <script src="script6.js" defer></script>
+        <title>Задание 6</title>
+    </head>
+    <body>
+        <h1>Авиационное топливо</h1>
+        <h2>Оформление заказа</h2>
+        <fildset>
+            Введите количество топлива:</br>
+            <input id="quantity"></br>
+            Выберите вид топлива:</br>
+            <select name="type">
+                <option value="1">Авиационный бензин</option>
+                <option value="2">Керосин</option>
+                <option value="3">Самое лучшее топливо на свете</option>
+            </select></br>
+            <div id="options">
+                <label><input type="radio" name="options" value="gazprom">ООО "ГазпромГНПпродажи"</label>
+                <label><input type="radio" name="options" value="lykoil">ООО "Лукойл-Аэро"</label>
+                <label><input type="radio" name="options" value="baztopoperator">ООО «Базовый Топливный Оператор»</label>
+            </div>
+            <div id="properties">
+                <label><input type="checkbox" name="fluffy">airbus</label>
+                <label><input type="checkbox" name="sheared">boeing</label>
+            </div>
+        </fildset>
+        <div id="pay"></div>
+    </body>
+</html>
